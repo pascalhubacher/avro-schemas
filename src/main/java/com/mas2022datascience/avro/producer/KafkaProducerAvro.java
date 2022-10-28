@@ -1,4 +1,4 @@
-package com.mas2022datascience.avroavdl.producer;
+package com.mas2022datascience.avro.producer;
 
 import com.mas2022datascience.avro.v1.Frame;
 import java.util.Properties;

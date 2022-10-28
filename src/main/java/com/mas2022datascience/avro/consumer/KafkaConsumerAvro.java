@@ -1,4 +1,4 @@
-package com.mas2022datascience.avroavdl.consumer;
+package com.mas2022datascience.avro.consumer;
 
 import com.mas2022datascience.avro.v1.Frame;
 import java.util.Collections;
@@ -67,14 +67,6 @@ public class KafkaConsumerAvro {
         }
         consumer.close();
         System.out.println("DONE");
-    }
-
-    public static void main(String... args) throws Exception {
-        if (args.length == 0) {
-            runConsumer(10);
-        } else {
-            runConsumer(Integer.parseInt(args[0]));
-        }
     }
 
 }
