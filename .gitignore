@@ -105,3 +105,4 @@ fabric.properties
 tracab/**
 target/**
 .idea/**
+/.mvn/wrapper/maven-wrapper.properties
