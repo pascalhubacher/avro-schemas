@@ -8,5 +8,7 @@ protocol ObjectProtocol {
 		int y;
 		int z;
 		int sampling;
+		long velocity;
+		long accelleration;
 	}
 }
