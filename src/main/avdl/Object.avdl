@@ -8,7 +8,7 @@ protocol ObjectProtocol {
 		int y;
 		int z;
 		int sampling;
-		double velocity;
-		double accelleration;
+		union { null, double } velocity = null;
+		union { null, double } accelleration = null;
 	}
 }
