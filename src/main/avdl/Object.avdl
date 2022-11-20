@@ -2,7 +2,6 @@
 @description("raw tracab object data")
 protocol ObjectProtocol {
 	record Object {
-		union { null, double } ts = null;
 		int type;
 		string id;
 		int x;
