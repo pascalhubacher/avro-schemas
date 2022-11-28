@@ -9,5 +9,6 @@ protocol PlayerBallProtocol {
 		int z;
 		union { null, double } velocity = null;
 		union { null, double } accelleration = null;
+		union { null, double } distance = null;
 	}
 }
